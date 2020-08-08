@@ -1,0 +1,223 @@
+* {
+  font-family: "Recursive", sans-serif;
+}
+
+body {
+  background: black;
+}
+
+#particles-js {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  background: #fff;
+  align-content: center;
+  height: 50px;
+  width: 100vw;
+  position: fixed;
+  z-index: 100;
+  background-color: #444;
+  border-bottom: 3px solid rgb(69, 128, 206);
+}
+
+.header img {
+  margin: 10px 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.header__nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-list-ul {
+  display: flex;
+
+  align-items: flex-start;
+  margin-right: 20%;
+}
+
+.nav-list-li {
+  display: inline-block;
+  padding: 10px;
+  margin: auto 30px;
+}
+
+.nav-list-li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list-li a i {
+  margin: 0px 5px;
+}
+
+.nav-list-li a:hover {
+  cursor: pointer;
+  color: rgb(69, 128, 206);
+}
+
+.content {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  position: absolute;
+  top: 50px;
+  z-index: 10;
+  background: none;
+  object-fit: cover;
+  padding-top: 30px;
+}
+
+.main {
+  grid-row: 1 / 4;
+  grid-column: 1 / 5;
+  font-size: 20px;
+  width: 70vw;
+}
+
+.discord {
+  position: relative;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.discord__box {
+  margin: 0px auto;
+}
+
+.discord__box img {
+  display: block;
+  margin: 20px auto auto auto;
+  height: 150px;
+  width: 150px;
+}
+
+.discord__box a {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px;
+}
+
+.discord__box-bottom {
+  display: block;
+  border-radius: 20px;
+  background-color: rgb(134, 13, 13);
+  border: 5px solid #fff;
+  padding: 20px;
+  width: auto;
+  text-align: center;
+  color: #eee;
+}
+
+.discord__box-bottom:hover {
+  cursor: pointer;
+  background-color: rgb(87, 9, 9);
+  transition: 1s;
+}
+
+.reclutamiento {
+  background-color: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.reclutamiento__text h2 {
+  font-weight: 20px;
+  font-size: 50px;
+  color: #fff;
+}
+
+.reclutamiento__text p {
+  color: #fff;
+}
+
+.reclutamiento__img {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  padding-top: 55px;
+}
+
+#img-tft {
+  height: 90px;
+  width: 130px;
+}
+
+#img-valorant {
+  height: 110px;
+  width: 150px;
+}
+
+#img-lol {
+  height: 90px;
+  width: 125px;
+}
+
+#img-minecraft {
+  height: 100px;
+  width: 150px;
+}
+
+.aside {
+  grid-row: 1 / 4;
+  grid-column: 5 / 7;
+  background: none;
+}
+
+.widget-disc {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  grid-column: 1 / 7;
+  grid-row: 4 / 5;
+  background-color: #444;
+  border-top: 3px solid rgb(69, 128, 206);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.article {
+  height: 200px;
+}
+
+.footer p {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1500px) {
+  .header {
+    display: flex;
+    background: #fff;
+    align-content: center;
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    background-color: #fff;
+    border-bottom: 3px solid rgb(69, 128, 206);
+  }
+}

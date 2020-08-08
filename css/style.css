@@ -1,6 +1,9 @@
-* {
+/* * {
   font-family: "Recursive", sans-serif;
-}
+  font-family: 'Electrolize', sans-serif;
+
+
+} */
 
 body {
   background: black;
@@ -23,6 +26,7 @@ body {
   z-index: 100;
   background-color: #444;
   border-bottom: 3px solid rgb(69, 128, 206);
+  font-family: 'Electrolize', sans-serif;
 }
 
 .header img {
@@ -135,16 +139,24 @@ body {
   justify-content: left;
   padding: 10px;
   margin-top: 30px;
+  margin-left: 10px;
+  font-family: 'Electrolize', sans-serif;
 }
 
 .reclutamiento__text h2 {
   font-weight: 20px;
   font-size: 50px;
   color: #fff;
+  /* font-family: 'Russo One', sans-serif; */
+ 
 }
 
 .reclutamiento__text p {
   color: #fff;
+  font-weight: 30px;
+  font-size: 25px;
+  line-height : 20px;
+  padding-top: 20px;
 }
 
 .reclutamiento__img {
